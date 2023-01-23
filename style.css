@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    background-color: khaki;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    margin: 50px;
+    padding: 10px;
+    background-color:#026440;
+    border-radius: 15px;
+}
+
+#screen {
+    width: auto;
+    height: 50px;
+    border: 1px solid white;
+    margin: 10px;
+    background-color:lightslategrey;
+    border-radius: 20px;
+}
+
+#buttons-container {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px;
+    background-color: #877F77;
+    border-radius: 10px;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:ghostwhite;
+}
+
+#clear, #equal {
+    height: 50px;
+    width:50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#clear {
+    background-color: darkred;
+    color: aliceblue;
+}
+
+#equal {
+    background-color:darkblue;
+    color: aliceblue;
+}
+
+#row-one, #row-two, #row-three, #row-four {
+    padding: 2px;
+}
